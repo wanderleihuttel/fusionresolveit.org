@@ -1,0 +1,84 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[page.lang].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "Features"
+      section: features
+    - title: Download
+      section: download
+    - title: Screenshots
+      section: screenshot
+    - title: Demo
+      section: demo
+    - title: "Presentation"
+      section: presentation
+    - title: "Timeline"
+      section: timeline
+    - title: "Partners"
+      section: clients
+    - title: "Contact"
+      section: team
+    - title: "News"
+      url: /news.html
+    - title: Documentation
+      url: https://documentation.fusionresolveit.org/
+    - title: Code repositories
+      url: https://github.com/fusionresolveit
+    - title: Changelog
+      url: https://github.com/fusionresolveit/Issues/milestones
+    - title: Feature requests
+      url: https://github.com/fusionresolveit/Issues/issues
+    - title: CVE
+      url: /cve.html
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Français
+# -------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Fonctionnalités"
+      section: features
+    - title: Téléchargement
+      section: download
+    - title: Captures d'écran
+      section: screenshot
+    - title: Démo
+      section: demo
+    - title: "Présentation"
+      section: presentation
+    - title: "Timeline"
+      section: timeline
+    - title: "Partenaires"
+      section: clients
+    - title: "Contact"
+      section: team
+    - title: "Actualités"
+      url: /news.fr.html
+    - title: Documentation
+      url: https://documentation.fusionresolveit.org/
+    - title: Dépôts de code
+      url: https://github.com/fusionresolveit
+    - title: Changelog
+      url: https://github.com/fusionresolveit/Issues/milestones
+    - title: Demandes de<br>fonctionnalités
+      url: https://github.com/fusionresolveit/Issues/issues
+    - title: CVE
+      url: /cve.fr.html
+fr-FR:
+  <<: *DEFAULT_FR

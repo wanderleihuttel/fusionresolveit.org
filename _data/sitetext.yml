@@ -1,0 +1,418 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[page.lang].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to FusionResolveIT!
+    text: The power of IT service management
+    button: Tell Me More
+    buttonlink: "#features"
+
+  features:
+    title: "Features"
+    text: "FusionResolveIT is a software can help you to manage assets and your IT service."
+    section: features
+    list:
+      - title: "ITSM"
+        desc: "Incident, request, problem, change, knowledge..."
+        icon: fas fa-user-check
+      - title: "Assets management"
+        desc: "Manage the IT assets or the non IT assets."
+        icon: fas fa-network-wired
+      # - title: "Dynamic items"
+      #   desc: "Create dynamic items, with properties you want. It's flexible"
+      #   icon: fas fa-tools
+      # - title: "Rules"
+      #   desc: "Rules for rewrite fields.<br>Rules for send notifications."
+      #   icon: fas fa-cogs
+      # - title: "Responsive"
+      #   desc: "FusionResolveIT has a web interface with responsive design: adapt to the screen of the device."
+      #   icon: fas fa-mobile-alt
+      - title: "Works with FusionInventory"
+        desc: "The backend has FusionInventory server code and works with FusionInventory agent."
+        icon: fas fa-heart
+      # - title: "REST API"
+      #   desc: "The backend offer a standard REST API and documented. Very good to integrated to other projects."
+      #   icon: fab fa-dev
+      - title: "Databases"
+        desc: "Compatible MariaDB and PostgreSQL."
+        icon: fas fa-database
+      - title: "Free software"
+        desc: "FusionResolveIT is a free software with an open project management."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Modern"
+        desc: "Built with powerfull technologies (Ionic/Angular, Slim/Eloquent), to ensure modern features and compatibility."
+        icon: fas fa-certificate
+      - title: "Secured"
+        desc: "Code, data and server security is a priority."
+        icon: fas fa-shield-alt
+      - title: "Performances"
+        desc: "The application is fast, we need this!"
+        icon: fas fa-fighter-jet
+      - title: "Contributions welcome"
+        desc: "The contributions from the community are welcome on our [github](https://github.com/fusionresolveit)."
+        icon: fab fa-github
+      - title: "Chat with us<br>Chat between users"
+        desc: "Come chat with the FusionResolveIT team and with others users on our [Discord server](https://discord.gg/KdR6dyzNUU)."
+        icon: fas fa-comments
+
+  timeline:
+    title: "Timeline"
+    text: " "
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Fork of GLPI: glpisc"
+        year: "2021"
+        desc: "Fork of GLPI, more stabilization and more secure"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "Rename project: GSIT"
+        year: "2022"
+        desc: "Rename the project"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+      - title: "Rewrite code: datafork"
+        year: "2024"
+        desc: "Rewrite code from scratch, it's a datafork"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "Abandonment of development of GSIT by the editor"
+        year: "December 2024"
+        desc: "No longer maintained"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+      - title: "Fork by the community, rename in FusionResolveIT"
+        year: "December 2024"
+        desc: "Forked the project and rename it"
+        # image: assets/img/logo_fusionresolveit.png
+        alt: 
+        align: left
+      - title: "FUSIONCON2025: presentation of the project"
+        year: "April 2025"
+        desc: "Presentation of the project to the community"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+    end: "Our <br> great <br> story!"
+
+  presentation:
+    section: presentation
+    list:
+      - title: "Slides FusionCon2025 (April 21, 2025)"
+        text: "Go to the slides of the project"
+        url: 'presentation/2023-01/presentation.html'
+        video: https://video.ploss-ra.fr/w/kSHix1DUHEPAsFBdsQMn6i
+
+  download:
+    section: download
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Download
+    text: Last releases of FusionResolveIT
+    list:
+      # - title: "FusionResolveIT 1.0-BETA1"
+      #   url: "https://github.com/fusionresolveit/fusionresolveit/releases/tag/2.6"
+      #   # recommended: recommended agent version
+      #   # discontinued: discontinued
+      #   desc: "Version 1.0-BETA1, this version is not to be used in production"
+
+  screenshot:
+    section: screenshot
+    title: Screenshots
+    text: The screenshots of the application FusionResolveIT
+    list:
+      - title: Login page
+        image: Screenshot_2025-04-21_at_13-14-04_Fusion_Resolve_IT_-_Login_page.png
+      - title: Homepage for a technician / administrator
+        image: Screenshot_2025-04-21_at_13-25-32_Fusion_Resolve_IT_-_Home.png
+      - title: Tickets list
+        image: Screenshot_2025-04-21_at_13-35-57_Fusion_Resolve_IT_-_Tickets.png
+      - title: Ticket view
+        image: Screenshot_2025-04-21_at_13-26-01_Fusion_Resolve_IT_-_Ticket.png
+      - title: Computer view
+        image: Screenshot_2025-04-21_at_13-26-17_Fusion_Resolve_IT_-_Computer.png
+
+  demo:
+    section: demo
+    title: Demo
+    text: Demo kindly offered by our partner <a href="https://www.fusionresolveit.com/" target="_blank">Webelys</a> 
+    url: https://demo.fusionresolveit.app
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Partners
+    text: List of companies contributing to the project.<br>They have the expertise you might need on FusionResolveIT!
+    list:
+      - title: "Webelys - fusionresolveit.com"
+        url: https://www.fusionresolveit.com/
+        logo: assets/img/clients/partner_webelys.png
+        desc: "Prestations pour les entreprises : offres Cloud / SaaS, support On-Premise."
+
+  team:
+    title: "Contact us"
+    text: "Several channels to contact us "
+    subtext: 
+    section: team
+    people:
+      - name: "David Durieux"
+        role: "Project Leader"
+        image: assets/img/team/ddurieux.jpg
+        social:
+          - url: https://twitter.com/ddurieux_
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/david-durieux-2099459/
+            icon: fab fa-linkedin-in
+          - url: https://david.durieux.family
+            icon: fas fa-blog
+
+      - name: "Discord server"
+        role: "Place to speak between users and with project contributors"
+        # image: assets/img/team/you.png
+        social:
+          - url: https://discord.gg/KdR6dyzNUU
+            icon: "fab fa-discord"
+
+  cve:
+    nocve: There is no CVE for the moment
+    list:
+      # - cve: CVExxxx
+      #   link: http://
+      #   date: 2025-04-25
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      # - url: https://twitter.com/FusionResolveIT
+      #   icon: "fab fa-twitter"
+      - url: https://github.com/fusionresolveit/
+        icon: "fab fa-github"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      # - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+      #   icon: "fab fa-youtube"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Français
+# -------
+fr: &DEFAULT_FR
+  header:
+    title: Bienvenue sur FusionResolveIT!
+    text: La puissance de la <br>gestion des services informatiques 
+    button: M'en dire plus
+    buttonlink: "#features"
+
+  features:
+    title: "Fonctionnalités"
+    text: "FusionResolveIT est un logiciel qui vous permet de gérer vos actifs et votre service informatique."
+    section: features
+    list:
+      - title: "ITSM"
+        desc: "Incident, demande, problème, changement, connaissance..."
+        icon: fas fa-user-check
+      - title: "Gestion des actifs"
+        desc: "Gestion des actifs informatiques ou non informatiques."
+        icon: fas fa-network-wired
+      # - title: "Items dynamiques"
+      #   desc: "Création d'items dynamiques, avec les propriétés que vous souhaitez. C'est souple"
+      #   icon: fas fa-tools
+      # - title: "Règles"
+      #   desc: "Règles pour modifier des champs.<br>Règles pour envoyer des notifications."
+      #   icon: fas fa-cogs
+      # - title: "Responsive"
+      #   desc: "FusionResolveIT a une interface web avec un design responsive : il s'adapte à l'écran de l'appareil."
+      #   icon: fas fa-mobile-alt
+      - title: "Fonctionne avec FusionInventory"
+        desc: "Le backend contient du code de serveur FusionInventory et fonctionne avec l'agent FusionInventory."
+        icon: fas fa-heart
+      # - title: "API REST"
+      #   desc: "Le backend offre une API REST standard et documentée. Très simple à intégrer à d'autres projets."
+      #   icon: fab fa-dev
+      - title: "Bases de données"
+        desc: "Compatible avec MySQL, MariaDB, SQLite et Microsoft SQL Server."
+        icon: fas fa-database
+      - title: "Logiciel libre"
+        desc: "FusionResolveIT est un logiciel libre et la gestion du projet est ouverte."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Moderne"
+        desc: "Construit avec des technologies puissantes (Ionic/Angular, Slim/Eloquent), afin d'assurer des fonctionnalités modernes et une certaine compatibilité."
+        icon: fas fa-certificate
+      - title: "Securisé"
+        desc: "Le code, les données et la sécurité des données est une priorité."
+        icon: fas fa-shield-alt
+      - title: "Performances"
+        desc: "L'application est rapide, on en a besoin!"
+        icon: fas fa-fighter-jet
+      - title: "Les contributions sont les bienvenues"
+        desc: "Les contributions provenant de la communauté sont les bienvenues sur notre [github](https://github.com/fusionresolveit)."
+        icon: fab fa-github
+      - title: "Echangez avec nous<br>Echangez entre utilisateurs"
+        desc: "Venez échangez avec l'équipe de FusionResolveIT ainsi qu'avec d'autres utilisateurs sur notre [serveur Discord](https://discord.gg/KdR6dyzNUU)."
+        icon: fas fa-comments
+
+  timeline:
+    title: "Timeline"
+    text: " "
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Fork de GLPI: glpisc"
+        year: "2021"
+        desc: "Fork de GLPI, plus de stabilité et plus sécurisé"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "Renommage du projet: GSIT"
+        year: "2022"
+        desc: "Renommage the projet"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+      - title: "réécriture du code: datafork"
+        year: "2024"
+        desc: "réecriture du code de zéro, c'est un datafork"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "Abandon du déveloprment de GSIT par l'éditeur"
+        year: "Décembre 2024"
+        desc: "Plus maintenu"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+      - title: "Fork par la communauté, renommé en FusionResolveIT"
+        year: "Décembre 2024"
+        desc: "Fork du projet et renommage"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "FUSIONCON2025: présentation du projet"
+        year: "Avril 2025"
+        desc: "Présentation du project à la communauté"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+    end: "Notre <br> grande <br> histoire!"
+
+  presentation:
+    section: presentation
+    list:
+      - title: "Slides FusionCon2025 (21 avril 2025)"
+        text: "Aller voir les slides du projet"
+        url: 'presentation/2023-01/presentation.html'
+        video: https://video.ploss-ra.fr/w/kSHix1DUHEPAsFBdsQMn6i
+
+  download:
+    section: download
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Téléchargement
+    text: Les dernières releases de FusionResolveIT
+    list:
+      # - title: "FusionResolveIT 1.0-BETA1"
+      #   url: "https://github.com/fusionresolveit/fusionresolveit/releases/tag/2.6"
+      #   # recommended: recommended agent version
+      #   # discontinued: discontinued
+      #   desc: "Version 1.0-BETA1, this version is not to be used in production"
+
+  screenshot:
+    section: screenshot
+    title: Captures d'écran
+    text: Les captures d'ércan de l'application FusionResolveIT
+    list:
+      - title: Page de connexion
+        image: Screenshot_2025-04-21_at_13-14-04_Fusion_Resolve_IT_-_Login_page.png
+      - title: Page d'accueil pour un technicien / administrateur
+        image: Screenshot_2025-04-21_at_13-25-32_Fusion_Resolve_IT_-_Home.png
+      - title: Liste des tickets
+        image: Screenshot_2025-04-21_at_13-35-57_Fusion_Resolve_IT_-_Tickets.png
+      - title: Vue d'un ticket
+        image: Screenshot_2025-04-21_at_13-26-01_Fusion_Resolve_IT_-_Ticket.png
+      - title: Vue d'un ordinateur
+        image: Screenshot_2025-04-21_at_13-26-17_Fusion_Resolve_IT_-_Computer.png
+
+  demo:
+    section: demo
+    title: Démo
+    text: Demo gracieusement offertepar notre partenaire <a href="https://www.fusionresolveit.com/" target="_blank">Webelys</a> 
+    url: https://demo.fusionresolveit.app
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Partenaires
+    text: Liste des entreprises qui contribuent au projet.<br>Elles ont l'expertise que vous pourriez avoir besoin sur FusionResolveIT!
+    list:
+      - title: "Webelys - fusionresolveit.com"
+        url: https://www.fusionresolveit.com/
+        logo: assets/img/clients/partner_webelys.png
+        desc: "Prestations pour les entreprises : offres Cloud / SaaS, support On-Premise."
+
+  team:
+    title: "Contactez-nous"
+    text: "Plusieurs canaux pour nous contacter "
+    subtext: 
+    section: team
+    people:
+      - name: "David Durieux"
+        role: "Chef du projet"
+        image: assets/img/team/ddurieux.jpg
+        social:
+          - url: https://twitter.com/ddurieux_
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/david-durieux-2099459/
+            icon: fab fa-linkedin-in
+          - url: https://david.durieux.family
+            icon: fas fa-blog
+
+      - name: "Discord server"
+        role: "Endroit pour échanger entre utilisateurs et avec les contributeurs du projet"
+        # image: assets/img/team/you.png
+        social:
+          - url: https://discord.gg/KdR6dyzNUU
+            icon: "fab fa-discord"
+
+  cve:
+    nocve: Il n'y a pas de CVE actuellement
+    list:
+      # - cve: CVExxxx
+      #   link: http://
+      #   date: 2025-04-25
+
+  footer:
+    legal: "Politique de confidentialité"
+    social:
+      # - url: https://twitter.com/fusionresolveit
+      #   icon: "fab fa-twitter"
+      - url: https://github.com/fusionresolveit/
+        icon: "fab fa-github"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      # - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+      #   icon: "fab fa-youtube"
+fr-FR:
+  <<: *DEFAULT_FR
