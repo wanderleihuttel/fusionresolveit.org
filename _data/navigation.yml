@@ -2,7 +2,7 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
+# locale: "pt-BR"  [Portuguese Brazilian]
 #
 # How to use:
 # {{ site.data.navigation[page.lang].nav.<var_name> | default: 'text' }}
@@ -82,3 +82,36 @@ fr: &DEFAULT_FR
       url: /cve.fr.html
 fr-FR:
   <<: *DEFAULT_FR
+
+# Portuguese Brazilian (default)
+# -----------------
+en: &DEFAULT_PT-BR
+  nav:
+    - title: "Recursos"
+      section: features
+    - title: Download
+      section: download
+    - title: Capturas de tela
+      section: screenshots
+    - title: Demo
+      section: demo
+    - title: "Apresentação"
+      section: presentation
+    - title: "Linha do Tempo"
+      section: timeline
+    - title: "Parceiros"
+      section: clients
+    - title: "Contato"
+      section: team
+    - title: "Novidades"
+      url: /news.html
+    - title: Documentação
+      url: https://documentation.fusionresolveit.org/
+    - title: Código Fonte
+      url: https://github.com/fusionresolveit
+    - title: Log de alterações
+      url: https://github.com/fusionresolveit/Issues/milestones
+    - title: Solicitações de Recursos
+      url: https://github.com/fusionresolveit/Issues/issues
+    - title: CVE
+      url: /cve.html  
