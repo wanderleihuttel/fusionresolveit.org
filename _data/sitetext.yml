@@ -124,11 +124,11 @@ en: &DEFAULT_EN
     title: Download
     text: Last releases of FusionResolveIT
     list:
-      # - title: "FusionResolveIT 1.0-BETA1"
-      #   url: "https://github.com/fusionresolveit/fusionresolveit/releases/tag/2.6"
-      #   # recommended: recommended agent version
-      #   # discontinued: discontinued
-      #   desc: "Version 1.0-BETA1, this version is not to be used in production"
+      - title: "FusionResolveIT 1.0.0-beta.1"
+        url: "https://github.com/fusionresolveit/FusionResolveIT/releases/tag/1.0.0-beta.1"
+        # recommended: recommended agent version
+        # discontinued: discontinued
+        desc: "Version 1.0.0-beta.1, this version <b>should not be used in production</b>"
 
   screenshot:
     section: screenshot
@@ -332,11 +332,11 @@ fr: &DEFAULT_FR
     title: Téléchargement
     text: Les dernières releases de FusionResolveIT
     list:
-      # - title: "FusionResolveIT 1.0-BETA1"
-      #   url: "https://github.com/fusionresolveit/fusionresolveit/releases/tag/2.6"
-      #   # recommended: recommended agent version
-      #   # discontinued: discontinued
-      #   desc: "Version 1.0-BETA1, this version is not to be used in production"
+      - title: "FusionResolveIT 1.0.0-beta.1"
+        url: "https://github.com/fusionresolveit/FusionResolveIT/releases/tag/1.0.0-beta.1"
+        # recommended: recommended agent version
+        # discontinued: discontinued
+        desc: "Version 1.0.0-beta.1, cette version <b>ne doit pas être utilisée en production</b>"
 
   screenshot:
     section: screenshot
