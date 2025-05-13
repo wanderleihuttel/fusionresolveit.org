@@ -92,7 +92,7 @@ en: &DEFAULT_PT-BR
     - title: Download
       section: download
     - title: Capturas de tela
-      section: screenshots
+      section: screenshot
     - title: Demo
       section: demo
     - title: "Apresentação"
